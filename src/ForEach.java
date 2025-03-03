@@ -6,12 +6,18 @@ public class ForEach {
 		// mengakses array menggunakan counter yang kita buat
 		// namun kita bisa menggunakan for each untuk mengakses seluruh data di array secara otomatis
 
-		String[] array = {
+		String[] angkas = {
 				"satu", "dua", "tiga", "empat", "lima", "enam"
 		};
 
-		for (int i = 0; i < array.length; i++) {
-			System.out.println(array[i]);
+		for (int i = 0; i < angkas.length; i++) {
+			System.out.println(angkas[i]);
+		}
+		System.out.println("berhenti perulangan");
+
+		// menggunakan kata kunci foreach
+		for (var angka : angkas) {
+			System.out.println(angka);
 		}
 
 
