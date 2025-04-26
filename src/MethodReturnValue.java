@@ -1,9 +1,6 @@
 public class MethodReturnValue {
 	public static void main(String[] args) {
 
-		// secara defauld method itu tidak menghasilkan value apapun
-		// kita harus mendeklarasikan sebuah method dengan kata kunci return
-
 		int result = sum(10, 20);
 
 		System.out.println(result);
