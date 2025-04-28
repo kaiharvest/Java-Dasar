@@ -1,11 +1,12 @@
 public class MethodVariableArgument {
 	public static void main(String[] args) {
 
-		sayHello("Indra" , 80, 90, 75, 65);
+		int[] values = {80, 90, 75, 65};
+		sayCongrats("Indra" , values);
 
 	}
 
-	static void sayHello(String name, int... values) {
+	static void sayCongrats(String name, int... values) {
 		var total = 0;
 		for (var value : values) {
 			total += value;

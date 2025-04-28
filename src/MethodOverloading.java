@@ -1,9 +1,6 @@
 public class MethodOverloading {
 	public static void main(String[] args) {
 
-		// membuat method sama lebih dari sekali
-		// namun parameternya harus berbeda-beda, jika sama akan error
-
 		sayHello();
 		sayHello("indra");
 		sayHello("budi", "nugraha");
